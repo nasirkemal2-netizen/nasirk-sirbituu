@@ -1,39 +1,19 @@
-# Sirbituu
-Kumkummee: AI-powered music studio app for Ethiopian languages.  Records voice, generates Oromo music styles, provides editing tools,  and exports MP3/MP4. Built with Flutter + Python AI backend.
-# 🎵 Kumkummee - AI Music Studio for Afaan Oromoo
+# 🎵 Kumkummee - AI Music Studio Afaan Oromoof
 
-## 🇪🇹 Afaan Oromoon
-Kumkummee appi tokko AI-powered music studio dha. Afaan Oromoo major ta'ee, Afaanota Itoophiyaa biroo waliin dalaga. Appi kun sagalee user fudhata, sirboota Oromo modern/cultural ittiin hojjetu, edit gochuuf studio salphaa qaba, fi MP3/MP4 download godha.
+## ✨ Dandeettiiwwan
+- 🎤 **Sagalee Galchuu** - Sagalee kee salphaatti galchuu
+- 🤖 **AI Sirba Uumuu** - Sagalee irraa sirba Oromo uumuu
+- 🎵 **Garee Sirbaa** - Oromo Modern, Oromo Cultural, Amhara, Tigray
+- ✂️ **Sagalee Edit Gochuu** - Trim, volume, effect (echo, reverb)
+- 🎨 **Editor Mul'ataa** - Background color, animation, overlay
+- 📤 **Export Gochuu** - MP3 audio ykn MP4 video save godhuu
+- 📱 **Platform Hunda** - Android & iOS irratti hojjata
 
-## 🌍 In English
-Kumkummee is an AI-powered music studio app primarily for Afaan Oromoo and other Ethiopian languages. It records user voice, generates music in Oromo styles, provides editing tools, and exports audio/video files.
-
-## ✨ Features
-- 🎤 **Voice Recording** - Record your voice easily
-- 🤖 **AI Music Generation** - Generate Oromo music from voice
-- 🎵 **Multiple Styles** - Oromo Modern, Oromo Cultural, Amhara, Tigray
-- ✂️ **Audio Editing** - Trim, volume, effects (echo, reverb)
-- 🎨 **Visual Editor** - Background colors, animations, overlays
-- 📤 **Export** - Save as MP3 audio or MP4 video
-- 📱 **Cross-Platform** - Works on Android & iOS
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK
-- Dart
-- Python 3.8+ (for backend)
-
-### Installation
+## 🚀 Eeguu Jalqabaa
 ```bash
-# Clone repository
-git clone https://github.com/nasirk/kumkummee-music-studio.git
-
-# Navigate to project
-cd kumkummee-music-studio
-
-# Install Flutter dependencies
+git clone https://github.com/nasirk/kumkummee.git
+cd kumkummee
 flutter pub get
-
-# Run the app
-flutter run
+flutter run 
+Phone number +251917658579  
+email address: nasirkemal2@gmail.com
