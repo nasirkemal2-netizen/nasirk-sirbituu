@@ -1,0 +1,16 @@
+kumkummee/
+├── lib/                    # Flutter source code
+│   ├── main.dart          # App entry point
+│   ├── screens/           # App screens
+│   │   ├── home_screen.dart
+│   │   ├── recording_screen.dart
+│   │   ├── style_selection_screen.dart
+│   │   ├── editor_screen.dart
+│   │   └── export_screen.dart
+│   ├── providers/         # State management
+│   └── widgets/           # Custom widgets
+├── assets/                # Images, animations
+├── backend/               # Python AI backend
+│   ├── app.py
+│   └── requirements.txt
+└── pubspec.yaml           # Flutter dependencies
