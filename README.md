@@ -1,4 +1,4 @@
-# 🎵 Kumkummee - AI Music Studio Afaan Oromoof
+# 🎵 Sirbituu - AI Music Studio Afaan Oromoof
 
 ## ✨ Dandeettiiwwan
 - 🎤 **Sagalee Galchuu** - Sagalee kee salphaatti galchuu
@@ -11,8 +11,8 @@
 
 ## 🚀 Eeguu Jalqabaa
 ```bash
-git clone https://github.com/nasirk/kumkummee.git
-cd kumkummee
+git clone https://github.com/nasirk/sirbituu.git
+cd sirbituu
 flutter pub get
 flutter run 
 phone number : +251917658579 
