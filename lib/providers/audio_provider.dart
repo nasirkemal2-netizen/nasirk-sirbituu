@@ -1,9 +1,7 @@
 import 'package:flutter/foundation.dart';
-import 'package:record/record.dart';
+import 'package:audio_recorder/audio_recorder.dart';  // CHANGED
 
 class AudioProvider extends ChangeNotifier {
-  final AudioRecorder _recorder = AudioRecorder();
-  
   bool _isRecording = false;
   bool get isRecording => _isRecording;
   
@@ -14,22 +12,21 @@ class AudioProvider extends ChangeNotifier {
   Duration get recordingDuration => _recordingDuration;
   
   Future<void> startRecording() async {
-    if (await _recorder.hasPermission()) {
+    if (await AudioRecorder.hasPermissions) {
       _isRecording = true;
       _recordingDuration = Duration.zero;
       notifyListeners();
       
       final path = '/storage/emulated/0/Sirbituu/recording_${DateTime.now().millisecondsSinceEpoch}.m4a';
-      await _recorder.start(const RecordConfig(), path: path);
+      await AudioRecorder.start(path: path);
       _recordedFilePath = path;
       
-      // Update duration every second
       _updateDuration();
     }
   }
   
   Future<void> stopRecording() async {
-    await _recorder.stop();
+    await AudioRecorder.stop();
     _isRecording = false;
     notifyListeners();
   }
@@ -49,11 +46,5 @@ class AudioProvider extends ChangeNotifier {
     _recordedFilePath = null;
     _recordingDuration = Duration.zero;
     notifyListeners();
-  }
-  
-  @override
-  void dispose() {
-    _recorder.dispose();
-    super.dispose();
   }
 }
