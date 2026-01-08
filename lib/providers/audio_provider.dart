@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:audio_recorder/audio_recorder.dart';  // CHANGED
+import 'package:audio_recorder/audio_recorder.dart';
 
 class AudioProvider extends ChangeNotifier {
   bool _isRecording = false;
