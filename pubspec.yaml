@@ -1,7 +1,7 @@
-name: kumkummee
-description: AI Music Studio for Afaan Oromoo
-version: 1.0.0+1
+name: sirbituu
+description: AI Music Studio Afaan Oromoof
 publish_to: 'none'
+version: 1.0.0+1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -9,25 +9,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
-  record: ^4.2.0
-  audio_waveforms: ^2.0.0
-  lottie: ^2.7.0
-  http: ^1.1.0
-  provider: ^6.1.1
-  just_audio: ^0.9.34
-  permission_handler: ^10.4.4
-  share_plus: ^7.2.0
-  path_provider: ^2.1.0
-  file_picker: ^5.3.3
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  audioplayers: ^5.2.1
+  record: ^4.4.0
+  share_plus: ^7.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
+
   assets:
-    - assets/animations/
-    - assets/images/
+    - assets/
