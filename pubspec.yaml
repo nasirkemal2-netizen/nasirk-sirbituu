@@ -16,13 +16,13 @@ dependencies:
   # Audio playback
   audioplayers: ^5.2.1
 
-  # Audio recording (replacement – WORKING)
+  # Audio recording
   record: ^5.0.4
 
   # Share files
   share_plus: ^7.2.2
 
-  # Permissions (needed for record)
+  # Permissions
   permission_handler: ^11.0.1
 
   # File paths
@@ -34,6 +34,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/
